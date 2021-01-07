@@ -28,6 +28,7 @@ public class MyStepDefinitions {
     public void user_is_on_greencart_landing_page() throws Throwable {
        driver = Base.getDriver();
        driver.manage().window().maximize();
+       System.out.print("changes made");
        
        
     }
